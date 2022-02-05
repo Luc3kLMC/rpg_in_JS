@@ -1,0 +1,40 @@
+<html>    
+    <!-- chyba dziala, dopisac intro w eventMsg[0] -->
+    <head>
+        <script src="rpgScript.js"></script>
+    </head>
+    
+    <body onload="displayer(1), createRandomPlayer(), displayPlayerStats(), hideCombatRelatedButtons()">
+        <div id="displayPlayerStats">    
+        </div>
+
+        <br><hr>
+
+        <div id="displayEventText"></div>
+        <div id ="opponentStats"></div>
+
+        <br><hr>
+
+        <div id="controls">
+        </div>
+
+        <div id="combatControls">
+            <button id="combat" onclick="combat()">COMBAT</button>
+            <button id="firebolt" onclick="firebolt()">FIREBOLT</button>
+            <button id="heal" onclick="heal()">HEAL</button>
+        </div>
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+</html>
